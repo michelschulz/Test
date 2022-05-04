@@ -14,5 +14,12 @@ public  class Main
             sum += i;
         }
         System.out.println(sum);
+        
+        int mul = 1;
+        for (int i = 1; i <= 10 ; ++i)
+        {
+            mul *= i;
+        }
+        System.out.println(mul);
     }
 }
