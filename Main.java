@@ -9,7 +9,7 @@ public  class Main
         System.out.println ("Hallo Welt!");
         
         int sum = 0;
-        for (int i = 1; i <= 20 ; ++i)
+        for (int i = 1; i <= 50 ; ++i)
         {
             sum += i;
         }
