@@ -25,9 +25,9 @@ public  class Main
         // 1 + 1 /2^2 + 1/3^2 + 1/4^2 + ...
         
         double reihe = 0;
-        for (int i = 1; i <= 10000; i++)
+        for (int i = 1; i <= 10; i++)
         {
-            reihe += 1/Math.pow(i, 2);
+            reihe = reihe + 1/Math.pow(i, 2);
         }
         System.out.println(reihe);
     }
